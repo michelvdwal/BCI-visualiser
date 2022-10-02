@@ -1,0 +1,26 @@
+{
+  "name": "BCI spectrum visualizer",
+  "description": "High resolution brainwave visualizer with build in spectrum analyzer",
+  "version": "1.0.0",
+  "main": "./src/audioMotion-analyzer.js",
+  "module": "./src/audioMotion-analyzer.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": "./src/audioMotion-analyzer.js"
+  },
+  "files": [
+    "src/**/*.js",
+    "src/**/*.d.ts"
+  ],
+  "scripts": {
+    "start": "npx http-server"
+  },
+  "keywords": [
+    "spectrum analyzer",
+    "graphic analyzer",
+    "audio",
+    "music",
+    "visualization",
+    "brainwaves"
+  ]
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BCI spectrum analyzer</title>
+	<link href="styles/fonts.css" rel="stylesheet" />
+	<link href="styles/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+	<!-- splash screen-->
+	<div id="splash" class="splash">
+		<div class="titlescreen">
+			<img class="morethan" src="images/morethan.png" alt=">" />
+			<div class="content">
+				<h1>"The Eye" demo</h1>
+				<p class="intro">The Eye can see your brain activity while you listen. Hook up the Brain Computer Interface to experience a spectrum visualisation of your brainwave activities.</p>
+				<label><input type="checkbox" id="start" class="startbutton"> PLAY </label>
+				<p class="version">Copyright 2022 Liquid Studio Netherlands. Version 0.0.1</p>	
+			</div>
+			<img class="acntech" src="images/Acc_Technology_SvcMrk_White_RGB.png" alt="Accenture technology" />
+		</div>
+	</div>
+
+	<!-- brain activity-->
+	<div class="brain-activity" id="brain-activity">
+		<div class="outer-circle-container">
+			<div class="outer-circle"></div>
+		</div>
+		<div class="inner-circle-container">
+			<div class="inner-circle-red"></div>
+		</div>
+		<div class="inner-circle-container">
+			<div class="inner-circle-green"></div>
+		</div>
+		<div class="inner-circle-container">
+			<div class="inner-circle-blue"></div>
+		</div>
+	</div>
+
+	<!-- analyzer container -->
+	<div class="sa-container">
+		<div id="spectrum-analyzer" class="spectrum-analyzer"></div>
+	</div>
+
+	<script src="scripts/spectrum-analyzer.js" type="module"></script>
+
+</body>
+</html>

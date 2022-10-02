@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'graphiklight';
+    src:    url('../fonts/graphik-light-webfont.ttf') format('ttf'),
+            url('../fonts/graphik-light-webfont.woff2') format('woff2'),
+            url('../fonts/graphik-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'graphikbold';
+    src:    url('../fonts/graphik-bold-webfont.ttf') format('ttf'),
+            url('../fonts/graphik-bold-webfont.woff2') format('woff2'),
+            url('../fonts/graphik-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphikregular';
+    src:    url('../fonts/graphik-regular-webfont.ttf') format('ttf'),
+            url('../fonts/graphik-regular-webfont.woff2') format('woff2'),
+            url('../fonts/graphik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphikblack';
+    src:    url('../fonts/graphik-black-webfont.ttf') format('ttf'),
+            url('../fonts/graphik-black-webfont.woff2') format('woff2'),
+            url('../fonts/graphik-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
